@@ -143,10 +143,11 @@ a:visited{
     padding: 32px;
   }
   
-  .column {
+  /* .column {
     float: left;
     width: 33%;
     padding: 10px;
+    display: flex;mn
   }
   
   .column img {
@@ -157,7 +158,12 @@ a:visited{
     content: "";
     display: table;
     clear: both;
-  }
+  } */
+
+  /* .row .column img:hover{
+      transform: scale(1.1);
+      border: 2px solid red;
+   } */
 
   .my-form{
       padding: 20px;
@@ -231,4 +237,33 @@ a:visited{
 
 #forest{
     border: 10px solid white;
+}
+
+
+.flex-box-padme{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.flex-box-padme img{
+    width: 300px;
+    margin: 10px;
+}
+
+.flex-box-padme img:hover{
+      transform: scale(1.1);
+      border: 2px solid red;
+} 
+
+.flex-box-padme{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%; /* Set the width of the positioned div */
 }

@@ -20,28 +20,6 @@ body{
     color: #fff;
 }
 
-#navbar{
-    background-color: #333;
-    color:#fff;
-}
-
-#navbar ul{
-    padding: 0;
-    list-style: none;
-}
-
-#navbar li{
-    display:inline;
-    padding: 30px;
-}
-
-#navbar a{
-    color:#fff;
-    text-decoration: none;
-    font-size: 18px;
-    padding-bottom: 15px;
-}
-
 #showcase{
     background-image: url('kandy.jpg');
     background-position: center right;
@@ -51,6 +29,18 @@ body{
     text-align: center;
 }
 
+#navibar{
+    background-color: #333;
+    color:#fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#navibar a{
+    padding-left: 20px;
+    font-size: large;
+}
+
 
 #main{
     float:left;
@@ -58,7 +48,6 @@ body{
     padding:0 30px;
     box-sizing: border-box;
 }
-
 
 .box-1{
     background-color: #333;
@@ -93,7 +82,7 @@ div.test{
     top: 0px;  
   }
   img{
-      margin: 0;
+      margin: 5px;
   }
 
 a{
@@ -102,15 +91,8 @@ a{
 }
 
 a:hover{
-    background-color: gray;
-}
-
-a:active{
-    background-color: gray;
-}
-
-a:visited{
-    background-color: gray;
+    color: #fbbc05;
+    text-transform: uppercase;
 }
 
 #main-footer{
@@ -143,28 +125,6 @@ a:visited{
     padding: 32px;
   }
   
-  /* .column {
-    float: left;
-    width: 33%;
-    padding: 10px;
-    display: flex;mn
-  }
-  
-  .column img {
-    margin-top: 12px;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  } */
-
-  /* .row .column img:hover{
-      transform: scale(1.1);
-      border: 2px solid red;
-   } */
-
   .my-form{
       padding: 20px;
       padding-left: 50px;
@@ -249,7 +209,11 @@ a:visited{
 
 .flex-box-padme img{
     width: 300px;
-    margin: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 1px;
+
 }
 
 .flex-box-padme img:hover{
@@ -257,13 +221,8 @@ a:visited{
       border: 2px solid red;
 } 
 
-.flex-box-padme{
-    position: absolute;
-    z-index: 999;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 40%; /* Adjust this value to move the positioned div up and down */
+.flex-box-images h4{
+    position: relative;
     text-align: center;
-    width: 60%; /* Set the width of the positioned div */
+    font-size: larger;
 }

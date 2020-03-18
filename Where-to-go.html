@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My website</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header id="main-header">
+            <div class="container">
+                <h1>Tourism in Sri Lanka</h1>
+            </div>
+        </header>
+
+        <nav id="navbar">
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="Where-to-go.html">Where to go</a></li>
+                    <li><a href="map.html">Map</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="row"> 
+            <div class="column">
+                <img src="kandee.jpg" style="width:100%">
+                <h4>Kandy</h4>
+                <img src="nuwara.jpg" style="width:100%">
+                <h4>Nuwara Eliya</h4>
+                <img src="galle.jpg" style="width:100%">
+                <h4>Galle</h4>
+                <img src="anuraduapuraya.jpg" style="width:100%">
+                <h4>Anuradapuraya</h4>
+            </div>
+
+            <div class="column">
+                <img src="matara.jpg" style="width:100%">
+                <h4>Matara</h4>
+                <img src="sigiriya.jpg" style="width:100%">
+                <h4>Sigiriya</h4>
+                <img src="kithulgala.jpg" style="width:100%">
+                <h4>Kithulgala</h4>
+                <img src="Hortonplains.jpg" style="width:100%">  
+                <h4>Horton Plains</h4>          
+            </div>  
+
+            <div class="column">
+                <img src="jafana.jpg" style="width:100%">
+                <h4>Jaffna</h4>
+                <img src="polonnaruwa.jpg" style="width:100%">        
+                <h4>Polonnaruwa</h4>   
+                <img src="hikkaduwa.jpg" style="width:100%">
+                <h4>hikkaduwa</h4>
+                <img src="yaala.jpg" style="width:100%">
+                <h4>Yaala</h4>           
+            </div>
+
+        </div>
+        <a href="Where-to-go.html" class="box-3"><i></i>To the top</a>
+
+        <footer id="main-footer">
+            <p>
+                Copyright © Sri Lanka Tourism Development Authority. All Rights Reserved. 
+            </p>
+            <p>
+                Created by 
+                <a target="_blank" href="https://www.linkedin.com/in/padma-gnanapriya-16b515180">Padma Gnanapriya</a>
+            </p>
+        </footer>
+        
+        <script type="text/javascript">
+            var x;
+            function autoscroll(){
+            self.scrollBy(0,x)
+            }
+
+            function playautoscroll(){
+            x = 1;
+            setInterval('autoscroll()',0.01);
+            stop();}
+
+            function onetozero(){
+            x=0;
+            }
+
+            function stop(){
+            setTimeout ("onetozero()",6000);
+            }
+            window.onload=playautoscroll
+        </script>   
+    </body>
+</html>

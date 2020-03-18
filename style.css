@@ -18,6 +18,8 @@ body{
 #main-header{
     background-color: coral;
     color: #fff;
+    position: fixed; 
+    width: 100%;
 }
 
 #showcase{
@@ -34,6 +36,9 @@ body{
     color:#fff;
     padding: 20px;
     text-align: center;
+    margin-top: 60px;
+    position: fixed; 
+    width: 100%;
 }
 
 #navibar a{
